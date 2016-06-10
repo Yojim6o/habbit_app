@@ -12,6 +12,11 @@ export default class HabitDetail extends Component {
 				<h3>Details for:</h3>
 				<div>Title: {this.props.habit.title}</div>
 				<div>Frequency: {this.props.habit.frequency} per day</div>
+				<div>Score: {
+					this.props.habit.scorecard.reduce(function(a,b){
+						return (a + b)
+					}) / this.props.habit.scorecard.length / this.props.habit.frequency
+				}</div>
 			</div>
 		);
 	}
