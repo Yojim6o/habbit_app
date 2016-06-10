@@ -2,11 +2,15 @@
 
 The Habit App is a work in progress application designed to help you build and track your progress in habit formations over both short and long periods of time (5 days to 1 year).
 
-###Idealogy###
+###Ideology###
 
-Someone who wants to form a habit should not be derailed by less-than-perfect performance.  This application will utilize a scoring system to focus/track user improvement.
+Someone who wants to form a habit should not be derailed by less-than-perfect performance.  This application will utilize a scoring system to focus on and track user improvement.
 
 ###Environment Setup###
+
+For Mac:
+
+Within your terminal, use the following commands:
 
 ```
 	> git clone git@github.com:Yojim6o/habit_app.git
@@ -27,15 +31,18 @@ Within the browser, you should see a list of habits.  You can click on one to vi
 
 - Move model to a database
 - Build habit creator
-- Scale scorecard model
+- Improve habit details
+- Build scorecard manager
+- Scale scorecard model over longer timespan
 - Create user environment
 - Create habit categories and scoring weights
 - User interactions/accountability features
-- Achievements
+- Build Achievements
 - Styling/branding
 - More to come!...
 
 ####React/Redux Courses####
 
 Shout out to Stephen Grider's React courses: [Redux](https://www.udemy.com/react-redux/)
+
 I built this app with his Redux Simple Starter repo: [Redux Simple Starter](https://github.com/StephenGrider/ReduxSimpleStarter)
