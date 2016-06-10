@@ -1,6 +1,6 @@
 export function selectHabit(habit) {
-	return {
-		type: 'HABIT_SELECTED',
-		payload: habit
-	};
+    return {
+        type: 'HABIT_SELECTED',
+        payload: habit
+    };
 }
