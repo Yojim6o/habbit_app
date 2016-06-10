@@ -1,7 +1,10 @@
 import { combineReducers } from 'redux';
+import HabitsReducer from './reducer_habits';
+import ActiveHabit from './reducer_active_habits';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+	habits: HabitsReducer,
+	activeHabit: ActiveHabit
 });
 
 export default rootReducer;
